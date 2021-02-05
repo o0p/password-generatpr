@@ -59,3 +59,7 @@ h2 {
   cursor: pointer;
 }
 
+.btn-large {
+  display: block;
+  width: 100%;
+}
