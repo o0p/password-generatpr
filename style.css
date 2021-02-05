@@ -44,3 +44,8 @@ h2 {
   height: 3.125rem;
   width: 100%;
 }
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 2.5rem);
+}
