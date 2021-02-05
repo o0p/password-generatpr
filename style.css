@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
@@ -7,12 +5,61 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #3b3b98;
+  color: rgba(255, 255, 255, 0.911);
+  font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  padding: 0.625rem;
   margin: 0;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #23235b;
+  box-shadow: 0rem 0.125rem 0.625rem rgba(255, 255, 255, 0.2);
+  padding: 1.25rem;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 1.125rem;
+  letter-spacing: 0.0625rem;
+  padding: 0.75rem 0.625rem;
+  height: 3.125rem;
+  width: 100%;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 2.5rem);
+}
+
+.btn {
+  border: none;
+  background-color: #3b3b98;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
 }
