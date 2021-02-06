@@ -76,4 +76,6 @@ h2 {
 .setting {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0.9375rem 0;
 }
