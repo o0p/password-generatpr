@@ -54,6 +54,9 @@ h2 {
   position: absolute;
   top: 0.3125rem;
   right: 0.3125rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
 }
 
 .btn {
@@ -70,3 +73,9 @@ h2 {
   width: 100%;
 }
 
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.9375rem 0;
+}
